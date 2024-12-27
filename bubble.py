@@ -24,7 +24,7 @@ def bubble_sort_swapped(numbers):
     return sorted_numbers
 
 
-numbers_list = [1, 2, 10, 1500, -5, 0, 78, -9] * 30
+numbers_list = [1, 2, 10, 1500, -5, 0, 78, -9] * 100
 
 result_1 = bubble_sort_classic(numbers_list)
 print(result_1)
