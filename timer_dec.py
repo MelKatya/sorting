@@ -3,6 +3,7 @@ import time
 
 
 def timer(func):
+    """Декоратор для расчета времени выполнения функции"""
     @wraps(func)
     def wrapper(*args, **kwargs):
         start_time = time.time()
